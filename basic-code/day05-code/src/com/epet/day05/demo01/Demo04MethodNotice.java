@@ -9,7 +9,8 @@ public class Demo04MethodNotice {
 //        System.out.println(b);
 
 //        StringTest();
-        StringTes2();
+//        StringTes2();
+        StringTes3();
     }
 
     public static int SumTow(int a, int b) {
@@ -32,6 +33,20 @@ public class Demo04MethodNotice {
 
 
         String[] hello = new String[]{"cc", "bb", "cc"};
+
+
+        System.out.println(hello[1]);
+    }
+
+    public static void StringTes3() {
+
+
+        String[] hello = new String[5];
+        hello[0] = "dsasad";
+        for (String valu : hello) {
+
+            System.out.println(valu);
+        }
 
 
         System.out.println(hello[1]);
